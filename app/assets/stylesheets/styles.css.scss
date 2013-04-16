@@ -1,0 +1,28 @@
+$baseFontFamily: CenturyGothic;
+/* You can change the font 
+@import url(http://font.google.com/css?family=Oxygen); */ 
+
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+@import "bootstrap";
+
+body {
+	padding-top: 60px;
+}
+
+@import "bootstrap-responsive"; 
+
+/*.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}*/ /*This will take out the shadow beneath the nav bar*/ 
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: gray;
+	}
+}
